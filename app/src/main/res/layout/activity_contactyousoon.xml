@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Dashboard.Contactyousoon">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/endimage"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/intro_screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/Step3"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:fontFamily="arial"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingBottom="10sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="STEP 3"
+        android:textColor="#ffbf00"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:text="Thank you For Helping The Dog Shelter"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endimage" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/contactsoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:text="We will Contact you as Soon as we Validate your Registration "
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endimage" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:id="@+id/gobacktodash"
+        android:layout_gravity="center"
+        android:text="Go Back to DashBoard "/>
+</LinearLayout>

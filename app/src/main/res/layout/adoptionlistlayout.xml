@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="#3d3737"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:textColor="#ffc34d"
+                android:id="@+id/nameindicate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dog Name:"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+            <TextView
+                android:textColor="#ffeb99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DogName_txt"
+                android:text="Dog Name"
+                android:textSize="25sp"
+                android:layout_below="@id/nameindicate"
+                />
+            <TextView
+                android:textColor="#ffc34d"
+                android:id="@+id/Breedindicate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breed:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_below="@id/DogName_txt"/>
+            <TextView
+                android:id="@+id/Breed_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffeb99"
+                android:text="Breed"
+                android:textSize="25sp"
+                android:layout_below="@id/Breedindicate"
+                />
+            <TextView
+                android:textColor="#ffc34d"
+                android:id="@+id/Locationindicate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_below="@id/Breed_text"/>
+            <TextView
+                android:id="@+id/Location_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="#ffeb99"
+                android:text="Location"
+                android:textSize="25sp"
+                android:layout_below="@id/Locationindicate"
+                />
+
+            <TextView
+                android:textColor="#ffc34d"
+                android:id="@+id/Addressindicate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_below="@id/Location_txt"/>
+            <TextView
+                android:id="@+id/Address_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="#ffeb99"
+                android:textSize="25sp"
+                android:layout_below="@id/Addressindicate"
+                />
+
+            <TextView
+                android:textColor="#ffc34d"
+                android:id="@+id/Numindicate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number:"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_below="@id/Location_txt"/>
+            <TextView
+                android:id="@+id/Number_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textColor="#ffeb99"
+                android:textSize="25sp"
+                android:layout_below="@id/Addressindicate"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/AdoptionListL"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/AdoptionlistEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_edit"/>
+            <ImageView
+                android:id="@+id/AdoptionlisteDel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_delete"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

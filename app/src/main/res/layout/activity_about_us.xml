@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Dashboard.AboutUs">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logo" />>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:background="#ffc34d"
+                        android:text="Mission"
+                        android:textStyle="bold"
+                        android:textSize="40sp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Dog Adoption helps the shelter to lessen the counts of the dog in the their vicinity."
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:background="#ffd633"
+                        android:text="Vision"
+                        android:textStyle="bold"
+                        android:textSize="40sp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Dog Adoption composed a connection to promote animal welfare care that focus on the dog"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:background="#ffc34d"
+                        android:text="Goal"
+                        android:textStyle="bold"
+                        android:textSize="40sp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Dog Adoption prevent the suffering of the dog in some shelter. it also promote to save and give another chance to the dog"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Dog Adoption Slogan"
+                        android:background="#ffd633"
+                        android:textStyle="bold"
+                        android:textSize="40sp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Every Dog deserves a lovely Owner
+Every Owner Deserves a Lovely Dog"
+                        android:textStyle="italic"
+                        android:textSize="30sp"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Contact"
+                        android:background="#ffc34d"
+                        android:textStyle="bold"
+                        android:textSize="40sp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="For more Question
+                    Please Contact Us:
+                    09123456789"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:gravity="center_horizontal" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="Email Us to :
+Dogadoption@gmail.com"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

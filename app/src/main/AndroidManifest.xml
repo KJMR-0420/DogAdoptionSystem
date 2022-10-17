@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dogadoptionsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DogAdoptionSystem">
+        <activity android:name=".pdfViewer"></activity>
+        <activity android:name=".Dashboard.ProcessOfDogAdoption" />
+        <activity android:name=".Dashboard.Contactyousoon" />
+        <activity android:name=".Dashboard.AdoptionForm2" />
+        <activity android:name=".user.UserAdoptionList" />
+        <activity android:name=".user.UserDashboard" />
+        <activity android:name=".user.CreateUserAccount" />
+        <activity android:name=".user.UserLogin" />
+        <activity android:name=".Dashboard.AdoptionForm" />
+        <activity android:name=".Dashboard.CreateDogProfile" />
+        <activity android:name=".Admin.AdminDashboard" />
+        <activity android:name=".SuperAdmin.SuperAdminDashboard" />
+        <activity android:name=".SuperAdmin.create_admin" />
+        <activity android:name=".Dashboard.AdminLogin" />
+        <activity android:name=".Dashboard.AboutUs" />
+        <activity android:name=".Dashboard.Dashboard" />
+        <activity android:name=".SplashScreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

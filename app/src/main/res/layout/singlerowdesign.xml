@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    app:cardUseCompatPadding="true">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#ffeb99"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/logo"
+                android:id="@+id/dog_image"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dognametext"
+                android:text="Dog Name"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/dog_image"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dogbreedtext"
+                android:text="Dog Breed"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/dog_image"
+                android:layout_below="@id/dognametext"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/doglocationtext"
+                android:text="Dog Location"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/dog_image"
+                android:layout_below="@id/dogbreedtext"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dogbackgroundtext"
+                android:text="Dog Background"
+                android:textSize="25sp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/dog_image"
+                android:layout_below="@id/doglocationtext"
+                android:layout_marginLeft="10dp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

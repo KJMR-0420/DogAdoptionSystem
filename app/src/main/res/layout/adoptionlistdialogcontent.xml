@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Update Adoption List Registry"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/dog_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            />
+        <EditText
+            android:id="@+id/dog_breed_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter breed"/>
+        <EditText
+            android:id="@+id/dog_location_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Location"
+            />
+        <EditText
+            android:id="@+id/dog_address_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Address"
+            />
+        <EditText
+            android:id="@+id/dog_contact_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Contact"
+            />
+
+        <Button
+            android:id="@+id/Adoptionlistupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

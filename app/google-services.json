@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858377580841",
+    "project_id": "dbdogadoption-a699b",
+    "storage_bucket": "dbdogadoption-a699b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858377580841:android:606cd479e5bdd5150b0738",
+        "android_client_info": {
+          "package_name": "com.example.dogadoptionsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858377580841-o73kddr0nq1kunfhi9gbh9knjr7k7rup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxEmUl-h4awB0J8lPe3QPxb-CBBO6hBsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858377580841-o73kddr0nq1kunfhi9gbh9knjr7k7rup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

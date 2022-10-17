@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/terms_upperbg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/terms_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffc34d"
+                android:layout_weight="1"
+                android:text="Terms and Condition"
+                android:textSize="50dp"
+
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/terms_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="#ffd633"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="AGREEMENT TO TERMS"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity, and [District Aid] we the developer. Concerning your access to and use of this application. You agree that by accessing this app, you have read, understood, and agree to be bound by all of these Terms and Conditions that we Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS and CONDITIONS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE APPLICATION AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+
+The information provided on the Application is not intended for distribution to or use by any person or entity in where such distribution or use would be contrary to law or regulation. Accordingly, those persons who choose to access the Application from other locations do so on their own initiative and are solely responsible for compliance with local laws, if the extent local laws are applicable.
+
+These terms and conditiin were created using Termly.
+
+1: The Application  is intended for users who are at least residence of barangay Kamuning located at Manila City. Persons who was not a residence of the said barangay are not permitted to use this Application.
+
+2: [The  District Aid Application is intended for users who are at least a residences of Barangay Kamuning.] All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Site. If you are a minor, you must have your parent or guardian read and agree to these Terms of Use prior to you using the Application.
+"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="#ffc34d"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="INTELLECTUAL PROPERTY RIGHTS"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, text, photographs, and graphics on the Application are owned or controlled by us or licensed to us, and are protected by copyright. "
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="#ffc34d"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="USER REPRESENTATIONS"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="By using the Application, you represent and warrant that: [(1) all registration information you submit will be true, accurate, current, and complete; (2) you will maintain the accuracy of such information and promptly update such registration information as necessary;] (3) you have the legal capacity and you agree to comply with these Terms of Use;  (4) not a minor in the jurisdiction or if a minor, you have received parental permission. (5) you will not access the Site through automated or non-human means, whether through a script (6) you will not use the Application for any illegal or unauthorized purpose; and (7) your use of the Application will not violate any applicable law or regulation.
+
+If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate you for the security of the App.
+"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="#ffc34d"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="PRIVACY POLICY"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="We care about data privacy and security. By using the Application you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised that the developer of this mobile application is a is a group of computer science student. If you are not a residence of barangay Kamuning located at Manila City then you are expressly prohibited to use this mobile application and you must discontinue immediately."
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:background="#ffc34d"
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="MODIFICATIONS AND INTERRUPTIONS "
+                android:gravity="center_horizontal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+
+                android:layout_weight="1"
+                android:layout_marginBottom="10dp"
+                android:text="We reserve the right to change, modify, the Application at any time or for any reason at our sole discretion without notice. However, we have no obligation to update any information on our Application. We also reserve the right to modify or discontinue all or part of the Application without notice at any time. We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the Application.
+
+We may experience hardware, software, or other problems or need to perform maintenance related to the Application, resulting in interruptions, delays, or errors. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Application at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site during any downtime or discontinuance of the app. Nothing in these Terms of Use will be construed to obligate us to maintain and support the Application.
+"
+                android:gravity="center_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancel" />
+                <Button
+                    android:id="@+id/accept"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Accept" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
